@@ -22,7 +22,7 @@ Neural network implementation solving XOR gate problem using TensorFlow. Created
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/yourusername/Lab04-XOR-Neural-Network-TensorFlow.git
+git clone https://github.com/BelalEbrahim/Lab04-XOR-Neural-Network-TensorFlow.git
 cd Lab04-XOR-Neural-Network-TensorFlow
 pip install -r requirements.txt
 ```
@@ -32,17 +32,6 @@ pip install -r requirements.txt
 python lab04_xor.py
 ```
 
-**Sample Output:**
-```
-Epoch    0 | Loss: 0.2712 | Accuracy: 0.5000
-Epoch 1000 | Loss: 0.0093 | Accuracy: 1.0000
-
-Final Predictions:
-[0 0] → 0 (confidence: 98.7%)
-[0 1] → 1 (confidence: 99.2%)
-[1 0] → 1 (confidence: 97.8%)
-[1 1] → 0 (confidence: 99.1%)
-```
 
 ## 🧠 Implementation
 ### Network Architecture
@@ -62,13 +51,6 @@ Output Layer (1 neuron, sigmoid)
 | Loss Function   | MSE      |
 | Optimizer       | Gradient |
 
-## 📊 Results Table
-| Input | Target | Prediction | Confidence |
-|-------|--------|------------|------------|
-| 0, 0  | 0      | 0          | 98.7%      |
-| 0, 1  | 1      | 1          | 99.2%      |
-| 1, 0  | 1      | 1          | 97.8%      |
-| 1, 1  | 0      | 0          | 99.1%      |
 
 ## 📚 Academic Context
 **Lab 04 Exercise Solution** demonstrating:
